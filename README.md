@@ -1,4 +1,4 @@
-# flutter_svgaplayer3-flutter_svgaplayer3
+# flutter_svgaplayer3
 
 ## Introduce
 
