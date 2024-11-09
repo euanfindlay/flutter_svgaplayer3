@@ -2,13 +2,14 @@
 
 ## 介绍
 
-`flutter_svgaplayer3` 是一个轻量的动画渲染库。你可以使用[工具](https://svga.io/designer.html)从 `Adobe Animate CC` 或者 `Adobe After Effects` 中导出动画文件，然后使用 `SVGAPlayer` 在移动设备上渲染并播放。
+`flutter_svgaplayer3` 是拓展SVGAPlayer-Flutter一个轻量的动画渲染库。你可以使用[工具](https://svga.io/designer.html)从 `Adobe Animate CC` 或者 `Adobe After Effects` 中导出动画文件，然后使用 `SVGAPlayer` 在移动设备上渲染并播放。
 
 `flutter_svgaplayer3` 通过 Flutter CustomPainter 原生渲染动画，为您带来高性能，低成本的动画体验。
 
 如果你想要了解更多细节，请访问[官方网站](https://svga.io/)。
 
-* SVGAPlayer-Flutter 只支持 2.0 版本格式.
+* SVGAPlayer-Flutter 只支持 2.0 版本格式（原作者已停止维护）.
+* flutter_svgaplayer3 仅支持 3.0 以上版本格式.
 
 ## 用法
 
@@ -51,7 +52,8 @@ class MyWidget extends Widget {
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:svgaplayer_flutter/svgaplayer_flutter.dart';
+import 'package:flutter_svgaplayer3/parser.dart';
+import 'package:flutter_svgaplayer3/player.dart';
 
 void main() => runApp(MyApp());
 

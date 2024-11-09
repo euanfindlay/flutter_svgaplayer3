@@ -2,12 +2,12 @@
 
 ## Introduce
 
-flutter_svgaplayer3 is a light-weight animation renderer. You use [tools](https://svga.io/designer.html) to export `svga` file from `Adobe Animate CC` or `Adobe After Effects`, and then use SVGAPlayer to render animation on mobile application.
+flutter_svgaplayer3 is a expand SVGAPlayer-Flutter light-weight animation renderer. You use [tools](https://svga.io/designer.html) to export `svga` file from `Adobe Animate CC` or `Adobe After Effects`, and then use SVGAPlayer to render animation on mobile application.
 
 `SVGAPlayer-Flutter` render animation natively via Flutter CustomPainter, brings you a high-performance, low-cost animation experience.
 
 If wonder more information, go to this [website](https://svga.io/).
-
+* SVGAPlayer-Flutter only supports version 2.0 format (the original author has stopped maintaining it).
 * flutter_svgaplayer3 supports 3.0 format only.
 
 ## Usage
@@ -51,7 +51,8 @@ To control an animation rendering, you need to create a `SVGAAnimationController
 
 ```dart
 import 'package:flutter/material.dart';
-import 'package:svgaplayer_flutter/svgaplayer_flutter.dart';
+import 'package:flutter_svgaplayer3/parser.dart';
+import 'package:flutter_svgaplayer3/player.dart';
 
 void main() => runApp(MyApp());
 
